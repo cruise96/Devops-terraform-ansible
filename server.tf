@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-east-2"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-05a36e1502605b4aa"
+  ami = "ami-01107263728f3bef4"
   instance_type = "t2.micro"
   key_name = "atharva-pub-key"
   vpc_security_group_ids=["sg-03f8a5614564561ae"]
